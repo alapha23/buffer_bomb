@@ -1230,7 +1230,7 @@ Disassembly of section .text:
  8048e3d:	89 e5                	mov    %esp,%ebp
  8048e3f:	83 ec 28             	sub    $0x28,%esp
  8048e42:	e8 db ff ff ff       	call   8048e22 <uniqueval>
- 8048e47:	89 45 f0             	mov    %eax,-0x10(%ebp)
+ 8048e47:	89 45 f0             	mov    %eax,-0x10(%ebp)	 #local
  8048e4a:	8d 45 f4             	lea    -0xc(%ebp),%eax
  8048e4d:	89 04 24             	mov    %eax,(%esp)
  8048e50:	e8 17 ff ff ff       	call   8048d6c <getbuf>
